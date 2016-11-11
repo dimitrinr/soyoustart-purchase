@@ -51,7 +51,7 @@ foreach($arr as $a)
 		if( array_key_exists($mname[2], $lookup))
 			if($c[4]=='bhs' && $c[0]!='unavailable' && substr($lookup["{$mname[2]}"],0,2)!='BK')
 			{
-				$out="Machine {$lookup["{$mname[2]}"]} in zone {$c[4]} is {$c[0]} with price of \${$lookup2["{$lookup["{$mname[2]}"]}"]}.00" . PHP_EOL;
+				$out.="Machine {$lookup["{$mname[2]}"]} in zone {$c[4]} is {$c[0]} with price of \${$lookup2["{$lookup["{$mname[2]}"]}"]}.00" . PHP_EOL;
 				echo "Machine {$lookup["{$mname[2]}"]} in zone {$c[4]} is {$c[0]} with price of \${$lookup2["{$lookup["{$mname[2]}"]}"]}.00" . PHP_EOL;
 			}
 
