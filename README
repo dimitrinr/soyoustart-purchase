@@ -2,3 +2,7 @@ Getting a soyoustart server is very difficult process because of how fast they d
 This script will check available servers in CANADA and print out ones that are available.
 You can extend this code and make it send you an email whenever a machine that you are waiting for is available,
 or just run it whenever you feel like to see if anything good is available.
+
+How to run:
+php checker.php
+
